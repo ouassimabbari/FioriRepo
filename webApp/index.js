@@ -6,7 +6,6 @@ sap.ui.define([
     XMLView.create({
         viewName: "sap.ui.demo.walkthrough.view.App"
     }).then(function (View) {
-        console.log(View)
         View.placeAt("content");
     });
 });
