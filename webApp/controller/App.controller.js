@@ -3,9 +3,9 @@ sap.ui.define([
     "sap/m/MessageToast",
     "sap/ui/model/json/JSONModel",
     "sap/ui/model/resource/ResourceModel"
-], function (Controller, MessageToast, JSONModel, ResourceModel) {
+], function (Controller, MessageToast) {
     'use strict';
-    return Controller.extend("sap.ui.demo.walkthrough.App", {
+    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
         onShowHello: function () {
             //read msg from i18n model
             var oBundle = this.getView().getModel("i18n").getResourceBundle();
